@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+   font-family: 'Poppins', sans-serif;
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   scroll-behavior: smooth;
+}
+
+body {
+   background-color: rgb(209, 186, 159);
+}
+
+header {
+   background-color: teal;
+   width: 100%;
+   position: fixed;
+   justify-content: space-between;
+   display: flex;
+   align-items: center;
+   padding: 10px 200px;
+   z-index: 999;
+}
+
+.logo {
+   text-decoration: none;
+   text-transform: uppercase;
+   font-weight: bolder;
+   color: blanchedalmond;
+   font-size: 1.8em;
+   font-weight: 700;
+}
+
+.logo:hover {
+   cursor: none;
+}
+
+nav a {
+   text-decoration: none;
+   color: bisque;
+   padding-left: 30px;
+   font-size: 1.2em;
+   font-weight: 500;
+}
+
+nav a:hover {
+   color: rgb(209, 186, 159);
+}
+
+.main {
+   padding: 100px 200px;
+   width: 100%;
+   min-height: 100vh;
+   display: flex;
+   align-items: center;
+}
+.main h2 {
+   color: teal;
+   font-size: 1.5em;
+   font-weight: 500;
+}
+
+.main span {
+   font-weight: 700;
+   font-size: 1.8em;
+}
+
+.main p {
+   margin-bottom: 20px;
+}
+
+#btn {
+   color: bisque;
+   text-decoration: none;
+   font-size: 1.1em;
+   font-weight: 600;
+   background-color: teal;
+   border-radius: 15px;
+   width: 250px;
+   padding: 10px 29px;
+   align-items: center;
+   margin-top: 10ox;
+   margin-bottom: 20px;
+   letter-spacing: 1px;
+}
+
+#btn:hover {
+   background-color: rgb(1, 106, 106);
+   transform: scale(1.1);
+}
+
+.main a {
+   color: teal;
+   margin-right: 30px;
+   font-size: 1.5em;
+   font-weight: 500;
+}
+
+#div {
+   position: relative;
+   /*border: 1px solid black;
+   */
+   width: 100%;
+}
+
+.img {
+   position: absolute;
+   right: 20px;
+   top: -40px;
+   width: 250px;
+   height: 270px;
+   border-radius: 50%;
+}
+
+.s2 {
+   background-color: burlywood;
+   min-height: 100vh;
+}
+
+.services {
+   color: teal;
+   font-size: 1.5em;
+   font-weight: 800;
+   margin: 30px;
+}
+
+.cards {
+   width: 98%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+}
+
+.card {
+   width: 250px;
+   margin: 15px;
+   box-shadow: 5px 0px 10px rgb(1, 106, 106);
+   padding: 10px;
+   justify-content: center;
+   border-radius: 10px;
+}
+
+.card:hover {
+   box-shadow: 0 5px 10px rgb(1, 106, 106);
+}
+
+.icon {
+   text-align: center;
+   font-size: 4.8em;
+}
+
+.icon a {
+   color: teal;
+}
+
+.disc {
+   text-align: center;
+}
+
+.disc h3 {
+   color: teal;
+   font-weight: 700;
+}
+
+#startt {
+   position: fixed;
+   right: 20px;
+   bottom: 20px;
+   background-color: teal;
+   color: bisque;
+   border-radius: 25px;
+   text-decoration: none;
+   justify-content: center;
+   padding: 3px;
+}
+
+
+.coursesection {
+   min-height: 100vh;
+
+}
+
+#courses {
+   color: teal;
+   font-size: 1.5em;
+   font-weight: 700;
+   justify-content: center;
+   margin: 40px;
+}
+
+.courses {
+   width: 98%;
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin: 50px;
+   padding: 30px;
+}
+
+.course {
+   width: 460px;
+   height: 300px;
+   justify-content: center;
+   margin: 30px;
+   box-shadow: 0 5px 10px rgb(1, 106, 106);
+}
+
+.course:hover {
+   box-shadow: 5px 0 10px rgb(1, 106, 106);
+}
+
+.cname {
+   color: teal;
+   font-size: 1.2em;
+   text-align: center;
+   font-weight: 700;
+}
+
+.dname {
+   text-align: center;
+}
+
+footer {
+   background-color: black;
+   color: bisque;
+   display: flex;
+   justify-content: space-between;
+   padding: 20px;
+   font-size: 1.2em;
+}
+
+.foot a {
+   color: bisque;
+   font-size: 30px;
+   font-weight: 500;
+   margin: 20px;
+}
+
+@media (max-width:1023px){
+   header{
+      padding: 12px 5px;
+   }
+   nav a{
+      padding-left:5px ;
+   }
+}
